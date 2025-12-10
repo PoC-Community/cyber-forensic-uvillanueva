@@ -1,1 +1,5 @@
 ANSWERSHEET
+
+For the first flag i started by using a combination of the strings command and grep with different keywords such as bash, user and more.
+That method did not yeald any results so i turned to volatility instead. Using the windows.sessions command i was quickly able to find the 2 active users:
+PoC{PoC_W0rk$Hop,BrunoDeChezPoC}
