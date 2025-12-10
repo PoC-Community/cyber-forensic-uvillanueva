@@ -12,3 +12,6 @@ For the full command line that was executed i used volatility once again, this t
 C:\Users\BrunoDeChezPoC\AppData\Local\Programs\Python\Python38\python.exe BadProgram.py.txt
 this results in the flag :
 PoC{edc88358ab58eda9f5484e546980f8fc5e76f124}
+
+Using memdump we can easily dump the malicious process and then hash it using sha512, we get this :
+A159A032804F3FC6E9D7D9310EA882AA9B176025D09920E4F847761D0411CA1D51FBFFE9E4BF9920CE98EAAFEDCF789FB235932BB8E6CF8ECD7A5730202636BD
